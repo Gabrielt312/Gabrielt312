@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Gabriel — desenvolvimento de software</title>
+  <desc id="desc">Banner escuro com detalhes em azul e verde, nome Gabriel e foco em Java, JavaScript, PHP e Web.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101c2e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#37b7df"/>
+      <stop offset="1" stop-color="#5ee1a8"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#43617c" stroke-opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#37506a" stroke-opacity=".7"/>
+  <rect x="48" y="37" width="1104" height="246" rx="16" fill="#0d1727" fill-opacity=".8" stroke="#27435b"/>
+
+  <circle cx="77" cy="62" r="5" fill="#e87b78"/>
+  <circle cx="96" cy="62" r="5" fill="#e6bf65"/>
+  <circle cx="115" cy="62" r="5" fill="#57c894"/>
+  <text x="570" y="67" fill="#8ea5ba" font-family="Consolas, 'Courier New', monospace" font-size="16" text-anchor="middle">gabriel@dev: ~/perfil</text>
+  <path d="M49 82H1151" stroke="#27435b"/>
+
+  <text x="89" y="128" fill="#5ee1a8" font-family="Consolas, 'Courier New', monospace" font-size="18">&gt; whoami</text>
+  <text x="86" y="204" fill="#f4f8fc" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="3">GABRIEL</text>
+  <rect x="89" y="224" width="155" height="4" rx="2" fill="url(#line)"/>
+  <text x="89" y="260" fill="#a7bfd2" font-family="Consolas, 'Courier New', monospace" font-size="20">Java  /  JavaScript  /  PHP  /  Web</text>
+
+  <path d="M841 138l-49 42 49 42M976 138l49 42-49 42" fill="none" stroke="#43bbd4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+  <path d="M935 126l-45 108" stroke="#5ee1a8" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <circle cx="1095" cy="228" r="7" fill="#5ee1a8"/>
+  <text x="1080" y="262" fill="#7ea0b7" font-family="Consolas, 'Courier New', monospace" font-size="13" text-anchor="end">BUILDING IN PUBLIC</text>
+</svg>
